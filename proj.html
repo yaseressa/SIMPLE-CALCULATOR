@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./proj.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/120e6a0e8f.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <script src="proj.js"></script>
+</head>
+<body>
+    <header>
+
+        <div id="ghead">
+            <img src="./download.png" alt="" width="70" height="70">
+          <h1 id="gh1">
+            UNIVERSITY OF HARGEISA
+          </h1>
+
+
+          <img src="./download.png" alt="" width="70" height="70">
+        </div>
+        <div id="shead">
+            <h2 id="sh2">
+                Faculty of Computer Science
+            </h2>
+        </div>
+    </header>
+    <div id="gbody">
+        <h1>Simple Calculator</h1>
+        <div id="sbody">
+   <form id="cal">
+<div id="form1">
+             
+<label for="" class="label1">
+   <h3> First Number:</h3><br>
+    <input type="text" class="input1" id="num1" >
+</label><br>
+    <label for="" class="label1">
+        <h3>Second Number:</h3><br>
+        <input type="text" class="input1" id="num2" >
+    </label><br><br>
+
+</div>
+
+
+    <div id="form2">
+            <div id="form21">
+        
+            <input type="radio" name="op" class="operator" id="div" value="d" >
+            <label for="div"> <i class="fas fa-divide"></i>
+        </label></BR>
+        
+            <input type="radio" name="op" class="operator" id="mul" value="m" >
+            <label for="mul">  <i class="fas fa-times"></i>
+        </label><br>
+    </div>
+             <div id="form22">
+        
+            <input type="radio" name="op" class="operator" id="sub" value="s">
+            <label for="sub"> <i class="fas fa-minus"></i>
+        </label><br>
+        
+            <input type="radio" name="op" class="operator" id="add" value="a">
+            <label for="add"><i class="fas fa-plus"></i>
+        </label>
+    </div>
+    </div>
+    </form>
+
+</div>
+<div id="dcal">
+<input type="button" id="btn1" value="Calculate" onclick="calc1()">
+<input id="input" type="text" value="Answer"><br>
+</div>
+</div>
+
+</body>
+</html>

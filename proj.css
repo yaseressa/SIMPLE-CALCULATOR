@@ -1,0 +1,190 @@
+@import url('./NotoSansMono-VariableFont_wdth\,wght.ttf');
+@import url('./RobotoMono-VariableFont_wght.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(59, 136, 155);
+}
+#ghead{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 48, 90);
+    z-index: 1;
+    box-shadow: 0 5px 1px  black;
+}
+#ghead img{
+filter: drop-shadow(3px 7px black);
+padding-bottom: 10px;
+}
+#gh1{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2.2em;
+    padding-top: 30px;
+    color: white;
+    text-shadow: 0 6px 3px black;
+    word-spacing: 1.2px;
+    font-weight: bolder;
+    padding-bottom: 1.7%;
+    padding-top: -1.7%;
+
+}
+#shead{
+    z-index: -1;
+}
+#sh2{
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 7%;
+    margin-top: 0.35%;
+    width: 85%;
+    color: burlywood;
+    background-color: rgb(49, 13, 13);
+    font-family: 'Roboto Mono', monospace;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    box-shadow: 0 5px 1px  black;
+
+}
+#gbody{
+    width:98%;
+    min-height: 70vh;
+    background-color: rgb(28, 90, 64);
+    transform: translateX(1%);
+    border: none;
+    border-radius: 2%;
+    box-shadow: 0 0 2px black;
+    margin-top: 7px;
+}
+#gbody h1{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    text-transform: capitalize;
+    background-color: rgb(19, 48, 90);
+    width: 100%;
+    font-size: 3em;
+  color: rgb(28, 90, 64);
+  text-shadow: 0 0 5px black;
+}
+
+
+
+#cal{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%
+
+}
+.input1{
+    border-radius: 8%;
+    border: none;
+    height: 4vh;
+    width: 45%;
+    min-height: 27%;
+    box-shadow: -4px 4px 0 black;
+    background-color: white;
+    color: black;
+    margin: 4% 0;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: 'Noto Sans Mono', monospace;
+    transform: translateX(60%);
+    text-align:center;
+
+
+}
+
+#form1{
+    transform: translateX(-19%);
+ 
+    
+}
+.label{
+    height: 20%;
+}
+.label1 input{
+    font-size: 1.3em;
+
+}
+.label1 input:hover, .label1 input:active, .label1 input:visited, .label1:focus{
+    color: white;
+    background-color: black;
+}
+.label1 h3{
+    padding-top: 2%;
+    padding-bottom: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px black;
+    color: white;
+}
+
+#dcal{
+    width: 100%;
+    height: 15vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6%;
+}
+#btn1{
+   display: inline-block;
+   width: 23%;
+   min-height: 9vh;
+   font-size: 1.7em;
+   transform: translateX(35%);
+   background-color: rgb(19, 48, 90);
+   border: 0;
+   font-family: 'Press Start 2P', cursive;
+   box-shadow: 3px 5px black;
+}
+#btn1:hover, #btn1:active, #btn1:visited{
+    box-shadow: -5px -3px black;
+    transition: box-shadow 0.1s;
+}
+
+#input{
+    width: 65%;
+    min-height: 9vh;
+   margin-left: 2px;
+   transform: translateX(17%);
+   font-family: 'Press Start 2P', cursive;
+   background-color: white;
+   font-size: 1.2em;
+   color: rgb(28, 90, 64);
+}
+i{
+    display: inline-block;
+font-size: 4.5em;
+width: 200%;
+text-align: center;
+margin: 10%;
+}
+input[type="radio"]{
+    display: none;
+
+}
+#form2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    transform: translateY(20%);
+    transform: translateX(-30%);
+}
+input[type="radio"]:checked + label i{
+    background-color: rgb(49, 13, 13);
+    color: white;
+    padding: 2%;
+    border-radius: 20%;
+    box-shadow: -5px -3px black;
+}
+
